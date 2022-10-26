@@ -7,3 +7,14 @@ function Soma(){
     let r = (Number(n1)) + Number(n2) + Number(n3));
     
 }
+<body>
+    <div class="calc">
+        <span id="tatalGeral">Total:0,00</span><br>
+        Capital: <input id="valor" type="tesxt"></br>
+        Juros mensais: <input id="juros"type="text"><br>
+        N. meses: <input id="meses"type="text"><br>
+        <button onclick="mat()">enviar</button>
+
+    </div>
+</body>
+
